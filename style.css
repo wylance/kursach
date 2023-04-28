@@ -1,0 +1,369 @@
+* {
+	padding: 0;
+	margin: 0;
+
+
+}
+
+
+body {
+		background: url(pics/fone.jpg);
+	position: relative;
+}
+header {
+	width: 100%;
+	height: 100px;
+	background: orange;
+	position: relative;
+	display: flex;
+}
+
+
+#logo {
+	display: flex;
+}
+
+.logo {
+	width: 80px;
+	padding: 10px 30px;
+}
+
+.textlogo {
+	padding: 35px 0 0 0;
+	font-family: Oswald;
+	text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+
+.textlogo:hover {
+	color: white; /* Меняем цвет текста */
+}
+
+.container1 {
+	 display: flex;
+    flex-direction: row;
+}
+
+#navbar {
+  list-style-type: none;
+  position: absolute;
+  display: inline-block;
+  right: 30px;
+}
+#navbar li { display: inline; }
+
+.infopanel {
+	padding: 10px;
+}
+a {
+	text-decoration: none;
+	font-family: Oswald;
+	color: black;
+	padding: 10px;
+	font-size: 32px;
+}
+
+
+
+
+
+
+.underline-two {
+	color: black; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-two:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-two:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+
+
+
+.underline-three {
+	color: black; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-three:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-three:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+
+
+.underline-four {
+	color: black; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-four:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-four:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+
+
+.container2 {
+	display: flex;
+	width: 90%;
+	padding: 20px;
+	font-family: Oswald;
+}
+
+.page1 {
+background-color: white;
+height: 750px;
+width: 350px;
+margin: 0 30px;
+overflow: hidden;
+	
+}
+
+.page2 {
+background-color: white;
+height: 750px;	
+width: 350px;
+margin: 0 30px;
+}
+
+.page3 {
+background-color: white;
+height: 750px;	
+width: 350px;
+margin: 0 30px;
+}
+
+.pageinfo {
+	background-color: white;
+height: 800px;	
+width: 500px;
+margin: 0 30px;
+position: fixed;
+right: 50px;
+border-radius: 10px;
+overflow: auto;
+}
+
+.news{
+	text-align: center;
+}
+
+.news1 {
+	text-align: center;
+	background-color: rgb(86%, 86%, 86%, 0.5);
+	margin: 1px;
+}
+
+
+.container3 {
+	display: flex;
+	width: 60%;
+	padding: 20px;
+	font-family: Oswald;
+}
+
+.page4 {
+background-color: white;
+height: 750px;
+width: 350px;
+margin: 0 30px;
+	
+}
+
+.page5 {
+background-color: white;
+height: 750px;	
+width: 350px;
+margin: 0 30px;
+}
+
+.page6 {
+background-color: white;
+height: 750px;	
+width: 350px;
+margin: 0 30px;
+}
+.container4 {
+	display: flex;
+	width: 60%;
+	padding: 20px;
+	font-family: Oswald;
+}
+
+.page7 {
+background-color: white;
+height: 750px;
+width: 350px;
+margin: 0 30px;
+	
+}
+
+.page8 {
+background-color: white;
+height: 750px;	
+width: 350px;
+margin: 0 30px;
+}
+
+.page9 {
+background-color: white;
+height: 750px;	
+width: 350px;
+margin: 0 30px;
+}
+
+img {
+	width: 350px;
+	height: auto;
+}
+
+.week2 {
+	padding: 10px;
+}
+
+.sun2 {
+	padding: 10px;
+}
+
+.prav2 {
+	padding: 10px;
+}
+
+.go2 {
+	padding: 10px;
+}
+
+.cats2 {
+	padding: 10px;
+}
+
+.koshmar2 {
+	padding: 10px;
+}
+
+.maloi2 {
+	padding: 10px;
+}
+
+.happy2 {
+	padding: 10px;
+}
+
+.mushket2 {
+	padding: 10px;
+}
+
+.next {
+	font-size: 20px;
+    display: inline-block;
+    color: orange; /* Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer;
+}
+.next:after {
+    background-color: black; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.next:hover:after,
+.next:focus:after {
+    width: 60%;
+}
+
+.nextall {
+	background-color: white;
+	width: 60%;
+	margin: 0 70px;
+}
+
+.next1 {
+	text-align: center;
+    color: black; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    transition: 1s linear; /* Время изменения */
+}
+.next1:hover {
+    color: white; /* Цвет текста */
+    background: orange; /* Цвет фона */
+}
+
+
+p {
+	font-family: Poltawski Nowy;
+	color: black;
+	font-size: 18px;
+}
+

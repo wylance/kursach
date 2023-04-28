@@ -1,0 +1,219 @@
+body {
+	margin: 0 auto;
+	background: url(pics6/fone.jpg);
+	position: relative;
+
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: orange;
+  position: relative;
+  display: flex;
+}
+
+
+#logo {
+  display: flex;
+}
+
+.logo {
+  width: 80px;
+  padding: 10px 30px;
+}
+
+.textlogo {
+  padding: 35px 0 0 0;
+  font-family: Oswald;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+
+.textlogo:hover {
+  color: white; /* Меняем цвет текста */
+}
+
+.container1 {
+   display: flex;
+    flex-direction: row;
+}
+
+#navbar {
+  list-style-type: none;
+  position: absolute;
+  display: inline-block;
+  right: 30px;
+}
+#navbar li { display: inline; }
+
+.infopanel {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  font-family: Oswald;
+  color: black;
+  padding: 10px;
+  font-size: 32px;
+}
+
+#reg {
+  display: flex;
+  position: absolute;
+  display: inline-block;
+  right: 100px;
+}
+
+.reglogo {
+  width: 60px;
+  padding: 20px 30px;
+}
+
+
+
+
+
+
+.underline-two {
+  color: black; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-two:after {
+  content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-two:hover:after {
+  content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+
+
+
+.underline-three {
+  color: black; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-three:after {
+  content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-three:hover:after {
+  content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+
+
+.underline-four {
+  color: black; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-four:after {
+  content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-four:hover:after {
+  content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+.kukuruzastr {
+  background-color: white;
+  width: 60%;
+  height: 85%;
+  margin: 10px auto;
+  overflow: auto;
+
+}
+
+
+h1 {
+  font-size: 36px;
+  padding: 10px;
+  font-family: Oswald;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poltawski Nowy;
+}
+
+.kukuruzaphoto{
+  width: 50%;
+  padding: 10px;
+   float:left;
+}
+.kukuruza1{
+  width: 50%;
+  padding: 10px;
+   float:right;
+}
+.kukuruza2{
+  width: 50%;
+  padding: 10px;
+   float:left;
+}
+
+.kukuruza3{
+  width: 50%;
+  padding: 10px;
+   float:right;
+}

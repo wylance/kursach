@@ -1,0 +1,248 @@
+body {
+	margin: 0 auto;
+	background: url(pics2/fone.jpg);
+	position: relative;
+
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: orange;
+  position: relative;
+  display: flex;
+}
+
+
+#logo {
+  display: flex;
+}
+
+.logo {
+  width: 80px;
+  padding: 10px 30px;
+}
+
+.textlogo {
+  padding: 35px 0 0 0;
+  font-family: Oswald;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+
+.textlogo:hover {
+  color: white; /* Меняем цвет текста */
+}
+
+.container1 {
+   display: flex;
+    flex-direction: row;
+}
+
+#navbar {
+  list-style-type: none;
+  position: absolute;
+  display: inline-block;
+  right: 30px;
+}
+#navbar li { display: inline; }
+
+.infopanel {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  font-family: Oswald;
+  color: black;
+  padding: 10px;
+  font-size: 32px;
+}
+
+
+
+
+
+
+.underline-two {
+  color: white;
+}
+
+
+
+
+
+.underline-three {
+  color: black; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-three:after {
+  content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-three:hover:after {
+  content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+
+
+
+.underline-four {
+  color: black; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-four:after {
+  content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-four:hover:after {
+  content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+#map {
+  max-width: 1920px;
+ width: 85%;
+ height: 55%;
+ background: white;
+ margin: 30px auto;
+ display: flex;
+ padding: 50px;
+
+
+
+}
+
+.mapall {
+ padding: 0px;
+ margin: 5%;
+ font-family: Oswald;
+ font-size: 1vw;
+
+}
+
+p {
+  padding: 20px;
+}
+
+.cinema {
+  font-family: serif;
+  font-size: 18px;
+}
+
+.luna {
+  font-family: serif;
+  font-size: 18px;
+}
+
+.savr {
+  font-family: serif;
+  font-size: 18px;
+}
+
+.lumer {
+  font-family: serif;
+  font-size: 18px;
+}
+
+.cinema{
+  color: black; /* Цвет ссылки */
+  font-weight: bold;
+  padding: 20px 0px;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; /* Время изменения цвета */
+}
+.cinema:hover{
+  color: #ffa000; /* Меняем цвет ссылки */
+}
+  
+
+  .luna{
+  color: black; /* Цвет ссылки */
+  font-weight: bold;
+  padding: 20px 0px;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; /* Время изменения цвета */
+}
+.luna:hover{
+  color: #ffa000; /* Меняем цвет ссылки */
+}
+
+
+.savr{
+  color: black; /* Цвет ссылки */
+  font-weight: bold;
+  padding: 20px 0px;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; /* Время изменения цвета */
+}
+.savr:hover{
+  color: #ffa000; /* Меняем цвет ссылки */
+}
+
+
+.lumer{
+  color: black; /* Цвет ссылки */
+  font-weight: bold;
+  padding: 20px 0px;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; /* Время изменения цвета */
+}
+.lumer:hover{
+  color: #ffa000; /* Меняем цвет ссылки */
+}
+  
+
+.infokino {
+    max-width: 1920px;
+ width: 75%;
+ height: 5%;
+ background: white;
+ margin: 30px auto;
+ display: flex;
+ padding: 50px;
+}
